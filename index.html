@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet"/>
+  <!-- <script src="scripts/constants.js" type="text/javascript"></script>
+  <script src="scripts/utility.js" type="text/javascript"></script> -->
+</header>
+<body>
+
+<canvas id="canvas" width="400" height="400"
+style="background-color:#333">
+</canvas>
+<div id='timeDigital'>
+<h4 id='timedisp'>current time is<h4>
+</div>
+
+<div id='control-clock'>
+ <input type="button" id="reset" value="Reset Clock" onclick="reset()"></button>
+ <input type="button" id="Live" value="Live Time" onclick="live()"></button>
+ <input type="button" id="Timer" value="Start Timer" onclick="timer()"></button>
+</div>
+
+<script src="source.js" type="text/javascript"></script>
+</body>
+</html>
